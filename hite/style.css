@@ -10,6 +10,7 @@ body{
 .head{
    background: #EFEEEC;
 }
+
 .header{
    display: flex;
    justify-content: space-between;
@@ -17,19 +18,23 @@ body{
    padding-top: 20px;
 }
 
-
 .container{
    width: 100%;
    max-width: 1280px;
    margin: 0 auto;
 }
 
-.logo{
+.logo a{
    font-family: var(--openSans);
    font-size: 34px;
    line-height: 46px;
-   color: #82B5D1;
    cursor: pointer;
+   text-decoration: none;
+   color: #82B5D1;
+}
+
+.menu__nav{
+   margin-left: 76px;
 }
 
 .menu__nav ul{
@@ -105,6 +110,7 @@ body{
    font-size: 28px;
    line-height: 38px;
    color: #FFFFFF;
+   cursor: pointer;
 }
 
 .slider{
@@ -327,6 +333,7 @@ body{
    width: 122px;
    height: 40px;
    margin-left: 14px;
+   cursor: pointer;
 }
 
 .sub_input{
@@ -345,4 +352,113 @@ body{
 
 .sub_form{
    display: flex;
+}
+
+/* footer */
+.footer__box{
+   margin-top: 50px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer__box_item h3, a{
+   margin: 0;
+   font-family: var(--openSans);
+   font-weight: 300;
+   font-size: 24px;
+   line-height: 33px;
+   color: #82B5D1;
+   text-decoration: none;
+}
+
+.footer__box_item ul{
+   list-style: none;
+}
+
+.footer__box_item h3>a{
+   font-size: 34px;
+   line-height: 46px;
+}
+
+.footer__box_item p{
+   font-family: var(--openSans);
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 25px;
+   color: #82B5D1;
+   margin-top: 41px;
+   width: 296px;
+}
+
+.social-media a:not(:last-child){
+margin-right: 27px;
+}
+
+.social-media+p{
+   margin-top: 32px;
+}
+
+.social-media{
+   margin-top: 16.65px;
+}
+
+.footer__menu ul{
+   padding: 0;
+}
+
+.footer__menu li{
+   margin-top: 13px;
+}
+
+.footer_form{
+   display: flex;
+   flex-direction: column;
+}
+
+.footer_form input{
+   margin-top: 32px;
+   padding: 0;
+   font-family: var(--openSans);
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 25px;
+   background-color: #CDE1ED;
+   color: #82B5D1;
+   width: 296px;
+   height: 48px;
+   border: solid 1px #82B5D1;
+   outline: none;
+   width: 298px;
+   height: 48px;
+}
+
+.footer_form button{
+   margin-top: 8px;
+   background: #1A242A;
+   width: 300px;
+   height: 48px;
+   font-family: var(--openSans);
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 25px;
+   color: #E6F0F6;
+   border: none;
+   padding: 0;
+}
+
+.footer__box_form h3{
+   width: 228px;
+   line-height: 29px;
+}
+
+.footer__box_menu{
+   margin-left: 61px;
+}
+
+.footer__menu{
+   margin-top: 45px;
+}
+
+.foolter__box_extra{
+   margin-left: 73px;
 }
