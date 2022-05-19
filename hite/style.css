@@ -657,12 +657,7 @@ line-height: 27px;
       margin-top: 178px;
    }
 
-
-
    /* category */
-
-
-
 
 .category__box{
    justify-content: center;
@@ -707,9 +702,7 @@ line-height: 27px;
       grid-column: 2 span;
    }
 
-
    /* popular */
-
 
    .popular h2{
       margin-top: 40px;
@@ -733,6 +726,14 @@ line-height: 27px;
    .popular__box_item h3,p{
       font-size: 18px;
       line-height: 21px;
+   }
+
+   .popular_btn{
+      width: 120px;
+      height: 38px;
+      font-size: 18px;
+      margin: 0;
+      bottom: 31%;
    }
 
    /* action */
