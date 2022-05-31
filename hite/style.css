@@ -171,14 +171,14 @@ a:hover {
    cursor: pointer;
 }
 
-.hero_img {
+/* .hero_img {
    max-width: 100%;
-}
+} */
 
 .slider {
    display: flex;
    justify-content: center;
-   margin-top: 68px;
+   margin-top: 180px;
    margin-left: 7px;  
    cursor: pointer;
 }
@@ -197,9 +197,12 @@ a:hover {
    background: #82B5D1;
 }
 
-.content__img {
-   max-width:100%;
-}
+.content__img img {
+   position: absolute;
+   top: 42%;
+   right: 5%;
+} 
+
 /* category */
 
 .category {
@@ -583,7 +586,7 @@ a:hover {
    }
    
    .hero{
-      height: 450px;
+      height: 530px;
    }
 
    .head {
@@ -678,6 +681,14 @@ a:hover {
 
    .icon_img:not(:last-child) {
       margin-right: 0;
+   }
+
+   .content__box {
+      z-index: 1;
+   }
+
+   .slider {
+      margin-top: 140px;
    }
 
    .category__box h3 {
@@ -796,15 +807,9 @@ a:hover {
       width: 178px;
    }
 
-   .content__img img {
-      position: absolute;
-      top: 38%;
-      left: 4%;
-      width: 309px;
-      height: 366px;
-      object-fit: cover;
-      object-position: left;
-   }
+   /* .content__img img {
+      left: 20%;
+   } */
 
    .slider {
       margin-top: 178px;
