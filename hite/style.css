@@ -887,7 +887,7 @@ a:hover {
    .box_text {
       padding-top: 20px;
       width: 280px;
-      margin: 0;
+      margin: 0 auto;
    }
 
    .box_text h3 {
