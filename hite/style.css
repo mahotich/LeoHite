@@ -134,6 +134,7 @@ a:hover {
 }
 
 .content__box {
+   position: relative;
    margin-left: 111px;
    margin-right: 53px;
    z-index: 2;
