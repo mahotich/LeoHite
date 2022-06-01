@@ -136,6 +136,7 @@ a:hover {
 .content__box {
    margin-left: 111px;
    margin-right: 53px;
+   z-index: 2;
 }
 
 .content__text {
@@ -171,10 +172,6 @@ a:hover {
    cursor: pointer;
 }
 
-/* .hero_img {
-   max-width: 100%;
-} */
-
 .slider {
    display: flex;
    justify-content: center;
@@ -199,7 +196,7 @@ a:hover {
 
 .content__img img {
    position: absolute;
-   top: 42%;
+   top: 30%;
    right: 5%;
 } 
 
@@ -258,11 +255,41 @@ a:hover {
 
 /* popular */
 
+.popular__box_item:hover .goods__hover {
+   opacity: 1;
+   transition: 0.5s;
+}
+
+.goods__hover {
+   opacity: 0;
+   right: 0;
+   margin: 10px 10px 0 0;
+   position: absolute;
+   background-color: #CDE1ED;
+   width: 71px;
+   height: 36px;
+   border: 2px solid #9BC4DA;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.goods__hover img {
+   width: 24px;
+   height: 24px;
+}
+
+.goods__hover img:hover {
+   filter: sepia(100%) hue-rotate(220deg) saturate(100%) contrast(1%);
+   transition: 0.2s;
+}
+
 .popular__box {
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    flex-wrap: wrap;
    margin-top: 40px;
+   row-gap: 25px;
 }
 
 .popular h2 {
@@ -276,6 +303,7 @@ a:hover {
 }
 
 .popular__box_item {
+   position: relative;
    cursor: pointer;
 }
 
@@ -568,16 +596,6 @@ a:hover {
    margin-left: 73px;
 }
 
-/* @media screen and (max-width:1024px) {
-
-   .container {
-      width: 980px
-   }
-
-   .content img {
-      display: none
-   }
-} */
 
 @media screen and (max-width:1024px) {
    .container {
@@ -807,10 +825,6 @@ a:hover {
       width: 178px;
    }
 
-   /* .content__img img {
-      left: 20%;
-   } */
-
    .slider {
       margin-top: 178px;
    }
@@ -838,6 +852,7 @@ a:hover {
    }
 
    /* popular */
+   
 
    .popular h2 {
       margin-top: 40px;
@@ -853,10 +868,22 @@ a:hover {
       flex-wrap: wrap;
    }
 
-   .popular__box img {
+   .goods__hover {
+      width: 45px;
+      height: 25px;
+   }
+
+   .goods__hover img{
+      width: 15px;
+      height: 15px;
+   }
+
+   .popular_img {
       width: 132px;
       height: 151px;
    }
+
+
 
    .popular__box_item h3,p {
       font-size: 18px;
