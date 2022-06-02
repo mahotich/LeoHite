@@ -201,7 +201,6 @@ a:hover {
 
 .content__img img {
    position: absolute;
-   top: 30%;
    right: 5%;
 } 
 
@@ -363,8 +362,7 @@ a:hover {
 .action {
    margin-top: 95px;
    background: #EFEEEC;
-   height: 100%;
-   padding-bottom: 40px;
+   padding-bottom: 95px;
 }
 
 .action__box {
@@ -401,6 +399,7 @@ a:hover {
 }
 
 .img-percentage {
+   position: relative;
    display: flex;
    flex-direction: row-reverse;
 }
@@ -804,7 +803,7 @@ a:hover {
 
    .hero {
       background:#fff;
-      height: 517px;
+      height: 568px;
    }
 
    .content {
@@ -834,7 +833,7 @@ a:hover {
    }
 
    .slider {
-      margin-top: 178px;
+      margin-top: 220px;
    }
 
    /* category */
@@ -909,9 +908,9 @@ a:hover {
    /* action */
 
    .action {
-      height: 568px;
       padding-top: 50px;
       margin-top: 50px;
+      padding-bottom: 35px;
    }
 
    .action__box {
@@ -942,16 +941,6 @@ a:hover {
 
    .img-percentage {
       justify-content: center;
-   }
-
-   .action_img {
-      right: 34%;
-   }
-
-   .img-percentage img {
-      width: 320px;
-      height: 332px;
-      object-fit: cover;
    }
 
    /* subbox */
