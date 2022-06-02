@@ -9,6 +9,10 @@
    font-weight: normal;
 }
 
+.body_active{
+   overflow: hidden;
+}
+
 body {
    font-family: 'Poiret One', cursive;
 }
@@ -525,6 +529,7 @@ a:hover {
 
 .footer__firm-name {
    margin-top: 32px;
+   margin-bottom: 40px;
    font-family: var(--openSans);
    font-weight: 300;
    font-size: 18px;
@@ -563,12 +568,14 @@ a:hover {
    outline: none;
    width: 298px;
    height: 48px;
+   padding-left: 4px;
+   padding-right: 4px;
 }
 
 .footer_form button {
    margin-top: 8px;
    background: #1A242A;
-   width: 300px;
+   width: 309px;
    height: 48px;
    font-family: var(--openSans);
    font-weight: 300;
@@ -775,7 +782,7 @@ a:hover {
    }
 
    .footer_form button {
-      width: 282px;
+      width: 290px;
    }
 
    .footer__firm-name {
@@ -953,11 +960,13 @@ a:hover {
    }
    
    .sub_box h2 {
+      text-align: center;
       font-size: 24px;
       line-height: 33px;
    }
 
    .sub_form {
+      justify-content: center;
       flex-direction: column;
    }
 
