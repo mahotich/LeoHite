@@ -957,6 +957,7 @@ a:hover {
    .sub_form {
       justify-content: center;
       flex-direction: column;
+      align-items: center;
    }
 
    .sub_input {
